@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const newRequest = axios.create({
-  baseURL: "https://swiptory-back-end.onrender.com/api/",
+  baseURL: REACT_APP_URL,
   withCredentials: true,
 });
 

@@ -85,7 +85,7 @@ export const ViewStory = ({
 
   const handleCopyStoryLink = () => {
     navigator.clipboard.writeText(
-      `https://swip-tory-front-end.netlify.app/viewstory/${story?._id}`
+      `https://swip-tory-front-end.vercel.app/viewstory/${story?._id}`
     );
     toast.success("Link copied successfully!");
   };
